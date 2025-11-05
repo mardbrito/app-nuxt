@@ -10,8 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@libsql/client": "^0.15.15",
     "@nuxt/eslint": "^1.10.0",
     "@tailwindcss/vite": "^4.1.16",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
     "eslint": "^9.39.1",
     "nuxt": "^4.2.0",
     "tailwindcss": "^4.1.16",
@@ -19,6 +22,7 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "drizzle-kit": "^0.31.6",
     "typescript": "^5.9.3"
   }
 }
